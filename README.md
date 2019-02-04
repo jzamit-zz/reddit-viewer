@@ -30,6 +30,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Custom Notes
 
+Please install dependencies before running the project: 
+
+### `npm install`
+
+
 Architecture:
 
 For this app, I used React, Redux, Redux Saga and Redux Logger for development purposes. For displaying time as reddit I used date-fns library.

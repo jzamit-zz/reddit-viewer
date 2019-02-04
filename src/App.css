@@ -1,0 +1,80 @@
+body {
+  font-family: 'Noto Serif SC', serif;
+}
+
+.header {
+  display: flex;
+  height: 120px;
+  background-color: rgb(76, 159, 232);
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    padding: 0 10px;
+}
+
+.permalink {
+  width: 40%;
+}
+
+.post {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    color: rgb(135, 138, 140);
+    cursor: pointer;
+    fill: rgb(135, 138, 140);
+    overflow: hidden;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    transition: color 0.5s ease 0s, fill 0.5s ease 0s, box-shadow 0.5s ease 0s;
+}
+
+.post:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(137, 137, 137);
+    border-image: initial;
+}
+
+.post-item {
+  width: 75%;
+  height: 150px;
+  display: inline-block;
+
+}
+.post-item-author{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post-item-space {
+  padding: 0 10px;
+}
+
+.post-image {
+  width: 20%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.post-image img {
+    max-width: 120px;
+    max-height: 110px;
+}
